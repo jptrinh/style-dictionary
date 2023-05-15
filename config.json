@@ -1,0 +1,17 @@
+{
+  "source": [
+    "input/tokens.json"
+  ],
+  "platforms": {
+    "css": {
+      "buildPath": "build/css/",
+      "transformGroup": "tokens-studio",
+      "files": [
+        {
+          "destination": "_tokens.json",
+          "format": "json/nested"
+        }
+      ]
+    }
+  }
+}
