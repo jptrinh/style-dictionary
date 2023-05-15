@@ -16,14 +16,14 @@ jobs:
       with:
         # See documentation: https://docs.github.com/en/actions/reference/encrypted-secrets
         # Set the secret in the "src" repository
-        personal_token: ${{ secrets.API_TOKEN_GITHUB }}
+        personal_token: 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
         # This is the branch that has the code for this article
-        src_branch: consuming-design-tokens-from-style-dictionary-with-github-actions
+        src_branch: main
         src_path: output/scss/_variables.scss
-        dst_owner: michaelmang
-        dst_repo_name: consume-style-dictionary-github-actions
+        dst_owner: jptrinh
+        dst_repo_name: style-dictionary
         dst_branch: main
         dst_path: tokens/_variables.scss
-        username: michaelmang
-        email: mikemangialardi94@gmail.com
+        username: jptrinh
+        email: jpvh.trinh@gmail.com
         commit_message: Update platform deliverable
