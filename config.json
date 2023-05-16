@@ -2,11 +2,11 @@
   "source": ["input/tokens.json"],
   "platforms": {
     "css": {
-      "transformGroup": "css",
+      "transformGroup": "js",
       "files": [
         {
-          "format": "css/variables",
-          "destination": "variables.css"
+          "format": "json/nested",
+          "destination": "tokens.json"
         }
       ]
     }
