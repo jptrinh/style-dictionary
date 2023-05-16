@@ -1,15 +1,12 @@
 {
-  "source": [
-    "input/tokens.json"
-  ],
+  "source": ["input/tokens.json"],
   "platforms": {
     "css": {
-      "buildPath": "build/css/",
-      "transformGroup": "tokens-studio",
+      "transformGroup": "css",
       "files": [
         {
-          "destination": "_tokens.json",
-          "format": "json/nested"
+          "format": "css/variables",
+          "destination": "variables.css"
         }
       ]
     }
