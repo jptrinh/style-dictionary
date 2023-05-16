@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build": "style-dictionary build"
+    "build": "style-dictionary build",
+    "transform-tokens": "token-transformer ./tokens/tokens.json transformed-tokens/tokens.json",
+    "clean": "rm -rf build transformed-tokens"
   },
   "repository": {
     "type": "git",
@@ -17,6 +19,7 @@
   },
   "homepage": "https://github.com/michaelmang/style-dictionary#readme",
   "dependencies": {
-    "style-dictionary": "^2.10.2"
+    "style-dictionary": "^3.7.0",
+    "token-transformer": "^0.0.23"
   }
 }
